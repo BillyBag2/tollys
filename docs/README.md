@@ -2,6 +2,8 @@
 
 Static website: open `index.html` in a browser, or serve this directory with a static web server. No build or dependencies are required. The directory is ready to use as the `/docs` source for GitHub Pages; deployment is not configured by this change.
 
+The example menu is at `menu.html`, generated from `../MENU.md` and `../menu/template.html`. After editing either source, run `python menu/build_menu.py` from the repository root and include `docs/menu.html` in your commit. GitHub Pages serves the generated page directly. See `../menu/README.md` for details. Use `../host.bat` to preview over HTTP.
+
 Update provisional hours in `index.html` when confirmed. Early November 2026 hours follow Gwen’s Cafe: Monday–Friday 8am–4pm, Saturday 9am–1pm, Sunday closed. Source: [Blacks Brokers, 12 June 2026](https://www.blacksbrokers.com/featured-listing-gwens-cafe-2/), checked 31 October 2026. These are not independently confirmed final Tolly’s hours.
 
 Facebook and Instagram links let visitors follow updates and enable notifications on those platforms. This page does not collect subscriptions or send browser push notifications.

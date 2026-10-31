@@ -6,7 +6,7 @@
 
   container.querySelector('.map-fallback')?.remove();
   const location = [51.947765, -2.060414];
-  const map = L.map(container, { scrollWheelZoom: false }).setView(location, 18);
+  const map = L.map(container, { scrollWheelZoom: false }).setView(location, 17);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -25,7 +25,7 @@
 
   const centre = () => {
     map.invalidateSize({ pan: false });
-    map.setView(location, 18, { animate: false });
+    map.setView(location, 17, { animate: false });
   };
   const button = document.querySelector('.map-recentre');
   button.hidden = false;
