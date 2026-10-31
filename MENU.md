@@ -1,6 +1,6 @@
-# Tolly's Cafe Menu
+# Tolly's Cafe Example Menu
 
-This is an example menu. Items, availability and prices are subject to change.
+Example menu. Items, availability and prices are subject to change.
 
 ## Page 1: Food
 
